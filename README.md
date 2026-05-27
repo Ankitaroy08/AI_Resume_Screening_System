@@ -29,3 +29,18 @@ The system automates resume evaluation and helps shortlist candidates efficientl
 - BERT
 - PyPDF2
 - Jupyter Notebook
+
+
+SYSTEM ARCHITECTURE
+
+Resume PDF
+     ↓
+Text Extraction
+     ↓
+NLP Cleaning
+     ↓
+Skill Extraction
+     ↓
+BERT Similarity
+     ↓
+ATS Score
